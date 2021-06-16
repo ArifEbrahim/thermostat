@@ -64,6 +64,13 @@ describe('Thermostat', function() {
     });
   })
 
+  it('can reset temperature with a reset function', function() {
+    thermostat.up();
+    expect(thermostat.getCurrentTemperature()).toEqual(21);
+    thermostat.resetTemperature();
+    expect(thermostat.getCurrentTemperature()).toEqual(20);
+  });
+
 
   
 
