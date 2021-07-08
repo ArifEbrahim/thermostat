@@ -1,3 +1,8 @@
+body {
+  background: url('./images/photo.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .low-usage {
   color: green;
 }
@@ -9,3 +14,91 @@
 .high-usage {
   color: red;
 }
+
+.container{
+  display:flex;
+  flex-direction: column;
+  text-align: center; 
+  height: 300px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.box1{
+  border: 5px gray solid;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 25px;
+  width: 500px;
+  border-radius: 25px;
+  background-color: lightskyblue
+}
+
+.box2{
+  display: flex;
+  flex-direction: column;
+  border: 5px gray solid;
+  margin: auto;
+  padding: 25px;
+  width: 500px;
+  border-radius: 25px;
+  background-color: lightskyblue
+}
+
+.psm-box{
+  margin-top: 25px;
+}
+
+#powersaving-on{
+  border-radius: 25px; 
+  padding: 8px;
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+#powersaving-off{
+  border-radius: 25px; 
+  padding: 8px;
+  background-color:red;
+  color: white;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+#temperature-down{
+  background-color:white;
+  color: gray;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#temperature-up{
+  background-color:white;
+  color: gray;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#temperature-reset{
+  background-color:white;
+  color: gray;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.submit-btn {
+  background-color:white;
+  color: gray;
+  font-size: 1rem;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
