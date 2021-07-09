@@ -52,8 +52,6 @@ body {
   align-items: left;
   font-size: 5rem;
   font-weight: 600;
-  position: absolute;
-  left: 740px;
 }
 
 #temperature {
