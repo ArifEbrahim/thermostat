@@ -6,7 +6,7 @@ This is a simple thermostat app built entirely in Javaascript. The purpose of th
 
 Screenshot of app:
 
-![screenshot](./images/app1.png)
+![screenshot](./images/app.png)
 
 
 ## How to use
@@ -32,3 +32,7 @@ Testing was completed in Jasmine and all tests are passing. To view the tests, o
 * Power saving mode is on by default but it can also be turned off
 * You can reset the temperature to 20 with a reset function
 * You can ask about the thermostat's current energy usage: < 18 is `low-usage`, <= 25 is `medium-usage`, anything else is `high-usage`.
+
+## Credits
+
+CSS developed with Frank McKenna 

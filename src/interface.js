@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-
-
   const updateTemperature = function() {
     document.querySelector('#temperature').innerText = thermostat.temperature
     document.querySelector('#temperature').className = thermostat.energyUsage();
@@ -27,13 +25,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.querySelector('#powersaving-on').addEventListener('click', function() {
     thermostat.switchPowerSavingModeOn();
-    document.querySelector('#power-saving-status').innerText = 'ON';
+    document.querySelector('#powersaving-on').style.borderColor = 'black';
+    document.querySelector('#powersaving-off').style.borderColor = 'white';
     alert('Maximum temperature limited to 25 degrees');
   });
 
   document.querySelector('#powersaving-off').addEventListener('click', function() {
     thermostat.switchPowerSavingModeOff();
-    document.querySelector('#power-saving-status').innerText = 'OFF';
+    document.querySelector('#powersaving-on').style.borderColor = 'white';
+    document.querySelector('#powersaving-off').style.borderColor = 'black';
     alert('Maximum temperature limited to 32 degrees');
   });
 
