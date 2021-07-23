@@ -4,10 +4,8 @@
 
 This is a simple thermostat app built entirely in Javaascript. The purpose of the project was to practice writing Javascript code, interact with the DOM, use AJAX and do some simple CSS styling. The program was built entirely through TDD with Jasmine as the test framework.
 
-Screenshot of app:
-
+## Screenshot
 ![screenshot](./images/app.png)
-
 
 ## How to use
 
